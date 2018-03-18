@@ -3,6 +3,7 @@ whoami
 sudo whoami
 sudo egrep -o '(vmx|svm)' /proc/cpuinfo
 
+uname -a
 
 #sudo apt-get install -y ubuntu-vm-builder
 #sudo apt-get install -y grub
