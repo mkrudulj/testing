@@ -8,7 +8,7 @@ lsmod | grep kvm
 modprobe kvm_intel
 
 ls -la /etc/apt/sources.list
-#sudo cp sources.list  /etc/apt/sources.list
+sudo cp sources.list  /etc/apt/sources.list
 ls -la /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get install systemd
