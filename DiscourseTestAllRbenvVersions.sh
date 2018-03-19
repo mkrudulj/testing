@@ -1,1 +1,1 @@
-for i in `rbenv versions`; do echo "Version:$i";rbenv global $i;echo "------------Restart discourse now---------";echo "-------------Check status--------"; done ;
+for i in `rbenv versions`; do echo "------------Stop discourse now---------";rbenv global $i;echo "Rbenv version:$i";echo "-------------Start discourse now--------";echo "-------------Check status--------"; done ;
